@@ -47,6 +47,7 @@
 					<thead>
 						<tr>
 							<th>Room Type</th>
+							<th>Location</th>
 							<th>Price</th>
 							<th>Photo</th>
 							<th>Action</th>
