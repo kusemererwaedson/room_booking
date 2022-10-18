@@ -11,7 +11,7 @@
 	<nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
 		<div  class = "container-fluid">
 			<div class = "navbar-header">
-				<a class = "navbar-brand" >Room 	Booking</a>
+				<a class = "navbar-brand" >Room Booking</a>
 			</div>
 		</div>
 	</nav>	

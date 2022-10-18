@@ -51,12 +51,17 @@
 							<label>Room Type </label>
 							<select class = "form-control" required = required name = "room_type">
 								<option value = "">Choose an option</option>
-								<option value = "Standard" <?php if($fetch['room_type'] == "Standard"){echo "selected";}?>>Standard</option>
-								<option value = "Superior" <?php if($fetch['room_type'] == "Superior"){echo "selected";}?>>Superior</option>
-								<option value = "Super Deluxe" <?php if($fetch['room_type'] == "Super Deluxe"){echo "selected";}?>>Super Deluxe</option>
-								<option value = "Jr. Suite" <?php if($fetch['room_type'] == "Jr. Suite"){echo "selected";}?>>Jr. Suite</option>
+								<option value = "Double Room" <?php if($fetch['room_type'] == "Double Room"){echo "selected";}?>>Double Room</option>
+								<option value = "Single Room" <?php if($fetch['room_type'] == "Single Room"){echo "selected";}?>>Single Room</option>
+								<option value = "Mansion" <?php if($fetch['room_type'] == "Mansion"){echo "selected";}?>>Mansion</option>
+								<option value = "Family House" <?php if($fetch['room_type'] == "Family House"){echo "selected";}?>>Family House</option>
 								<option value = "Executive Suite" <?php if($fetch['room_type'] == "Executive Suite"){echo "selected";}?>>Executive Suite</option>
+								<option value = "4 Bed Room" <?php if($fetch['room_type'] == "4 Bed Room"){echo "selected";}?>>4 Bed Room</option>
 							</select>
+						</div>
+						<div class = "form-group">
+							<label>Location</label>
+							<input type = "text" value = "<?php echo $fetch['Location']?>" class = "form-control" name = "Location" />
 						</div>
 						<div class = "form-group">
 							<label>Price </label>
