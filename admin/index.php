@@ -2,7 +2,7 @@
 <?php require_once "connect.php"?>
 <html lang = "en">
 	<head>
-		<title>Hotel Online Reservation</title>
+		<title>Room Booking</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "../css/bootstrap.css " />
@@ -12,7 +12,7 @@
 	<nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
 		<div  class = "container-fluid">
 			<div class = "navbar-header">
-				<a class = "navbar-brand" >Hotel Online Reservation</a>
+				<a class = "navbar-brand" >Room Booking</a>
 			</div>
 		</div>
 	</nav>
